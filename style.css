@@ -1,0 +1,208 @@
+body{
+    margin: 0%;
+    color: rgb(24, 33, 41);
+    background-color: rgb(238, 245, 247);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    height: 100px;
+    font-family: Helvetica, sans-serif;
+}
+.menu-list-right{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    font-weight: 500;
+    font-size: 25px;
+    width: 845px;  /*вводим её, чтобы текст в блоке раздвинулся с помощью space-between */
+    margin: 25px 0px 0px 0px;
+}
+.main-menu-list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 0px 50px;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+}
+.main-menu{
+    /* border-bottom: 1px solid rgb(108, 107, 109); */
+    margin: 0px 0px;
+    font-family: Helvetica, sans-serif;
+    /* background-color: rgb(190, 126, 196); */
+    padding: 30px 40px;
+    /* box-shadow: 0px 2px 0px 0px rgb(65, 64, 64); */
+    width: 700px;
+    height: 150px;
+}
+button{
+    padding: 10px 20px;
+    display: flex;
+    /* display: inline-flex; */
+    /* justify-content: center; */
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 23px;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 5px rgb(179, 177, 177);
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0fbcd3;
+}
+.info{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+header{
+    /* border-bottom: 1px solid rgb(108, 107, 109); */
+    margin: 0px 0px;
+    /* background-color: rgb(153, 153, 153);  */
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    align-items: center;
+}
+img{
+    width: 350px;
+    height: 135px;
+}
+.head-name{
+    align-items: center;
+    font-weight: 800;
+    font-size: 32px;
+    margin:30px 0px 0px 0px;
+    color: #053d7c;
+}
+.content{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 60px 30px 50px 50px;
+    font-family: Courier, monospace;
+}
+.history{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 60px 30px 50px 50px;
+    font-family: Courier, monospace;
+}
+h3{
+    color:rgb(44, 43, 43);
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.siri{
+    background-color: rgb(98, 218, 226);
+    margin: 80px 70px;
+    border: 5px solid rgb(66, 66, 66);
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px rgb(179, 177, 177);
+}
+.siri-info{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin: 50px 0px 90px 10px;
+    font-size: 25px;
+}
+.siri-text{
+    width: 50%;
+    margin: 20px 0px 50px 55px;
+    font-family: Helvetica, sans-serif;
+}
+.siri-foto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+}
+.alice{
+    margin: 10px 70px;
+    border: 5px solid rgb(66, 66, 66);
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px rgb(179, 177, 177);
+    background-color: white;
+}
+.alice-info{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 50px 0px 90px 30px;
+    font-size: 25px;
+}
+.alice-text{
+    width: 50%;
+    margin: 20px 0px 50px 40px;
+    font-family: Helvetica, sans-serif;
+}
+.alice-foto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+}
+.google{
+    margin: 10px 70px;
+    border: 5px solid rgb(66, 66, 66);
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px rgb(179, 177, 177);
+    background-color: white;
+}
+.google-info{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 50px 0px 90px 30px;
+    font-size: 25px;
+}
+.google-text{
+    width: 50%;
+    margin: 20px 0px 50px 40px;
+    font-family: Helvetica, sans-serif;
+}
+.google-foto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+}
+.mary{
+    background-color: rgb(240, 247, 151);
+    margin: 80px 70px;
+    border: 5px solid rgb(66, 66, 66);
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px 2px rgb(179, 177, 177);
+}
+.mary-info{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin: 50px 0px 90px 70px;
+    font-size: 25px;
+}
+.mary-text{
+    width: 50%;
+    margin: 20px 0px 50px 10px;
+    font-family: Helvetica, sans-serif;
+}
+.mary-foto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+}
+figure img{
+    width: 300px;
+    height: 300px;
+}
